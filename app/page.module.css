@@ -10,3 +10,53 @@
     width: 30px;
     height: auto;
 }
+
+.landing_container {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
+}
+
+.landing_container h1 {
+    font-size: 48px;
+
+    font-weight: 900;
+}
+
+.landing_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+}
+
+.landing_links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.landing_links button {
+    font-weight: 700;
+    padding: 12px;
+    border: 2px solid transparent;
+    color: white;
+    background-color: var(--dark-blue);
+    border-radius: 12px;
+}
+
+.landing_links .auto {
+    background-color: transparent;
+    color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+}

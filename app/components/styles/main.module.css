@@ -1,0 +1,10 @@
+.main {
+    flex-grow: 1;
+    padding-left: var(--edges-s);
+    padding-right: var(--edges-s);
+    width: calc(100% - var(--edges-s) - var(--edges-s));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}

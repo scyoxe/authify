@@ -38,16 +38,19 @@ export default function Landing() {
                 </div>
             </Header>
             <Main>
-                <div>
-                    <h1>Welcome to Authify!</h1>
-                    <p>
-                        Discover the power of Next.js as we explore cutting-edge
-                        authentication methods!
-                    </p>
-                </div>
-                <div>
-                    <button>Manual</button>
-                    <button>Auto</button>
+                <div className={styles.landing_container}>
+                    <div className={styles.landing_title}>
+                        <h1>Welcome to Authify!</h1>
+                        <p>
+                            Unlock the capabilities of Next.js as we dive into
+                            mastering mastering innovative authentication
+                            techniques!
+                        </p>
+                    </div>
+                    <div className={styles.landing_links}>
+                        <button>Manual</button>
+                        <button className={styles.auto}>Auto</button>
+                    </div>
                 </div>
                 <Footer />
             </Main>

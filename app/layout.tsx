@@ -1,7 +1,9 @@
 import './globals.css';
 import localFont from 'next/font/local';
 
-const suse = localFont({ src: './fonts/suse/suse.ttf' });
+const albertSans = localFont({
+    src: './fonts/albert-sans/albert-sans-regular.ttf',
+});
 
 export default function RootLayout({
     children,
@@ -10,7 +12,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body className={suse.className}>{children}</body>
+            <body className={albertSans.className}>{children}</body>
         </html>
     );
 }

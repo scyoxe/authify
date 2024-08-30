@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'albert-sans-regular';
+    src: url(./fonts/albert-sans/albert-sans-regular.ttf);
+}
+
 :root {
     --edges-l: clamp(60px, 10vw, 120px);
     --edges-s: clamp(30px, 10vw, 60px);
     --edges-xs: clamp(15px, 10vw, 30px);
+    --albert-sans-regular: 'albert-sans-regular';
 }
 
 * {

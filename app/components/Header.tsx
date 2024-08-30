@@ -1,3 +1,7 @@
-export default function Header() {
-    return <header></header>;
+export default function Header({
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
+    return <header>{children}</header>;
 }

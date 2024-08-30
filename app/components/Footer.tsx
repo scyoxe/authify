@@ -1,3 +1,7 @@
 export default function Footer() {
-    return <footer></footer>;
+    return (
+        <footer>
+            <p>&copy; 2024 - Authify</p>
+        </footer>
+    );
 }

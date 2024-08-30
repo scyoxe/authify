@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import NavItem from './components/NavItem';
 import Image from 'next/image';
 import styles from './page.module.css';
+import Footer from './components/Footer';
 
 export default function Landing() {
     return (
@@ -17,17 +18,10 @@ export default function Landing() {
                         name='Landing'
                         link='/'
                     />
+
                     <NavItem
-                        name='Local'
-                        link='/local'
-                    />
-                    <NavItem
-                        name='Social'
-                        link='/social'
-                    />
-                    <NavItem
-                        name='About'
-                        link='/about'
+                        name='Docs'
+                        link='/docs'
                     />
                 </Nav>
                 <div className={styles.github_repository}>
@@ -44,7 +38,18 @@ export default function Landing() {
                 </div>
             </Header>
             <Main>
-                <></>
+                <div>
+                    <h1>Welcome to Authify!</h1>
+                    <p>
+                        Discover the power of Next.js as we explore cutting-edge
+                        authentication methods!
+                    </p>
+                </div>
+                <div>
+                    <button>Manual</button>
+                    <button>Auto</button>
+                </div>
+                <Footer />
             </Main>
         </>
     );

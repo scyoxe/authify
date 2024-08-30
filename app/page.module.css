@@ -60,3 +60,68 @@
     color: var(--dark-blue);
     border: 2px solid var(--dark-blue);
 }
+
+.menu {
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .github_repository {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        grid-area: 1/2/2/4;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .menu_image {
+        z-index: 999;
+    }
+
+    .menu_image img {
+        width: 25px;
+        height: auto;
+    }
+
+    .menu_nav {
+        position: absolute;
+        gap: 24px;
+        top: 0px;
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 50%;
+        max-width: 200px;
+        background-color: white;
+        padding: var(--edges-xs);
+        padding-top: 75px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        border-left: 1px solid var(--dark-blue);
+    }
+
+    .menu_nav > .github_repository a {
+        gap: 12px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .menu_nav > .github_repository {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}

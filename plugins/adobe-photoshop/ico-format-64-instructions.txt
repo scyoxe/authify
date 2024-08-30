@@ -1,0 +1,29 @@
+ico-format-64 - Adobe Photoshop Plugin
+30/08/2024
+scyoxe@gmail.com
+
+Configuration
+    Installation
+        1. In your C-Drive(the drive where windows is installed), find a folder named 'Program Files'
+        2. In the 'Program Files' folder find a folder named 'Adobe'
+        3. In the folder 'Adobe' find the folder 'Adobe Photoshop' which might be different depending on the version you are using
+        5. In the 'Adobe Photoshop' folder find the folder 'Plug-ins'
+        6. In the 'Plug-ins' folder create the folder 'File Formats'
+        7. Open the newly created folder 'File Formats' and save plugin 'ico-format-64.8bi' file(plugin)
+
+    Usage
+        1. Create a new adobe photoshop file with the dimensions(in pixels - px) 256x256 and add a transparent background
+        2. Place an svg/png format of your logo/icon inside the project
+        3. Go to settings and click 'save as'
+        4. Find the '.ICO' format and save
+
+Concerns
+    Installation
+        1. The plugin might not work in a 32 bit system/software
+        2. Failure to follow installation instructions will result to the plugin not working
+
+    Usage
+        1. Failure to observe the dimensions given above (256x256) and failure to observe the right units (pixels) will result to the plugin not working
+
+Attribution
+    It is important to acknowlwdge that I did not make the plugin but I found it online. I hereby give credit to whowever developed the plugin and thank them. Their plugin continues to be of immense help to me and fellow designers/developers.

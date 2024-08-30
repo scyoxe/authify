@@ -1,3 +1,5 @@
+import styles from './styles/nav-item.module.css';
+
 interface navItem {
     name: string;
     link: string;
@@ -7,7 +9,7 @@ interface navItem {
 export default function NavItem({ name, link, style }: navItem) {
     return (
         <a
-            className={style}
+            className={[style, styles.navitem].join(' ')}
             href={link}>
             {name}
         </a>

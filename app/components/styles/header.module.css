@@ -1,0 +1,11 @@
+.header {
+    height: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    padding-left: var(--edges-s);
+    padding-right: var(--edges-s);
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}

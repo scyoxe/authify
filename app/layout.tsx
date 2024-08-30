@@ -1,3 +1,8 @@
+import './globals.css';
+import localFont from 'next/font/local';
+
+const suse = localFont({ src: './fonts/suse/suse.ttf' });
+
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -5,7 +10,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body>{children}</body>
+            <body className={suse.className}>{children}</body>
         </html>
     );
 }

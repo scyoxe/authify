@@ -1,0 +1,12 @@
+.github_repository {
+    grid-area: 1/3/2/4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.github_repository img {
+    width: 30px;
+    height: auto;
+}

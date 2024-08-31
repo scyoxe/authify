@@ -4,7 +4,7 @@ import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Authify',
+    title: 'Authify | Landing',
 };
 
 const albertSans = localFont({
